@@ -18,6 +18,7 @@ import java.nio.file.Paths;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.bson.Document;
+import org.bson.types.ObjectId;
 import org.json.JSONObject;
 import org.json.XML;
 
@@ -27,22 +28,8 @@ import org.json.XML;
  */
 public class SaveJson {
     
-    public void saveJson(JSONObject jsonObj) {
-        MongoClient mongoClient = new MongoClient(new MongoClientURI("mongodb://root:msroot@192.168.99.100:27017"));
-        MongoDatabase database = mongoClient.getDatabase("testdb");
-        
-        MongoCollection collection = database.getCollection("cfdis");
-        
-        Document doc = Document.parse( jsonObj.toString() );
-        
-        collection.insertOne(doc);
-    }
-    
-    public void printCollection(MongoCollection collection) {
-        MongoClient mongoClient = new MongoClient(new MongoClientURI("mongodb://root:msroot@192.168.99.100:27017"));
-        MongoDatabase database = mongoClient.getDatabase("testdb");
-        
-        collection = database.getCollection("cfdis");
+    public void printCollection(MongoDatabase database, String sCollection) {
+        MongoCollection collection = database.getCollection(sCollection);
         
         FindIterable<Document> fi = collection.find();
         
@@ -53,23 +40,21 @@ public class SaveJson {
         }
     }
     
-    public JSONObject read() throws IOException {
-        String xmlFile = System.getProperty("user.dir") + "\\file.xml";
-		
-        String xmlString = new String(Files.readAllBytes(Paths.get(xmlFile)), StandardCharsets.UTF_8);
-        JSONObject xmlJSONObj = XML.toJSONObject(xmlString);
-        
-        return xmlJSONObj;
-    }
-    
     public void process() {
+        MongoConn con = new MongoConn();
+        MongoDatabase database = con.getDatabase();
+        SaveThings st = new SaveThings();
+        
+        String xmlPath = "";
         try {
+            JSONObject jsonObj = st.readXml(xmlPath);
+            ObjectId objId = st.saveJson(database, "cfdis", jsonObj);
             
-            JSONObject obj = this.read();
-            this.saveJson(obj);
-            this.printCollection(null);
+            System.out.println(objId.toString());
             
-        } catch (IOException ex) {
+            this.printCollection(database, "cfdis");
+        }
+        catch (IOException ex) {
             Logger.getLogger(SaveJson.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
