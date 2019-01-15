@@ -5,22 +5,16 @@
  */
 package com.swap.mongojava;
 
-import com.mongodb.MongoClient;
-import com.mongodb.MongoClientURI;
 import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.bson.Document;
 import org.bson.types.ObjectId;
 import org.json.JSONObject;
-import org.json.XML;
 
 /**
  *
