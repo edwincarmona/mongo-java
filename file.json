@@ -1,0 +1,76 @@
+{"cfdi:Comprobante": {
+    "metodoDePago": "(N/A)",
+    "cfdi:Conceptos": {"cfdi:Concepto": {
+        "descripcion": "ACEITE CRUDO CANOLA TIPO III A GRANEL",
+        "unidad": "kg",
+        "cantidad": 80,
+        "noIdentificacion": "01101110105",
+        "importe": 800,
+        "valorUnitario": 10
+    }},
+    "Moneda": "MXN",
+    "cfdi:Emisor": {
+        "cfdi:DomicilioFiscal": {
+            "noExterior": 451,
+            "estado": "MICHOACÃ?N",
+            "codigoPostal": 58200,
+            "municipio": "MORELIA",
+            "calle": "AV. EJE NORTE SUR",
+            "localidad": "MORELIA",
+            "colonia": "CD. INDUSTRIAL",
+            "pais": "MÃ\u2030XICO"
+        },
+        "cfdi:RegimenFiscal": {"Regimen": "REGIMEN GENERAL DE LEY PERSONAS MORALES"},
+        "nombre": "TRON HERMANOS, S.A. DE C.V.",
+        "rfc": "AAA010101AAA"
+    },
+    "xsi:schemaLocation": "http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd",
+    "tipoDeComprobante": "ingreso",
+    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "subTotal": 800,
+    "noCertificado": "20001000000100005867",
+    "TipoCambio": 1,
+    "version": 3.2,
+    "certificado": "MIIEdDCCA1ygAwIBAgIUMjAwMDEwMDAwMDAxMDAwMDU4NjcwDQYJKoZIhvcNAQEFBQAwggFvMRgwFgYDVQQDDA9BLkMuIGRlIHBydWViYXMxLzAtBgNVBAoMJlNlcnZpY2lvIGRlIEFkbWluaXN0cmFjacOzbiBUcmlidXRhcmlhMTgwNgYDVQQLDC9BZG1pbmlzdHJhY2nDs24gZGUgU2VndXJpZGFkIGRlIGxhIEluZm9ybWFjacOzbjEpMCcGCSqGSIb3DQEJARYaYXNpc25ldEBwcnVlYmFzLnNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxEjAQBgNVBAcMCUNveW9hY8OhbjEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTIwMAYJKoZIhvcNAQkCDCNSZXNwb25zYWJsZTogSMOpY3RvciBPcm5lbGFzIEFyY2lnYTAeFw0xMjA3MjcxNzAyMDBaFw0xNjA3MjcxNzAyMDBaMIHbMSkwJwYDVQQDEyBBQ0NFTSBTRVJWSUNJT1MgRU1QUkVTQVJJQUxFUyBTQzEpMCcGA1UEKRMgQUNDRU0gU0VSVklDSU9TIEVNUFJFU0FSSUFMRVMgU0MxKTAnBgNVBAoTIEFDQ0VNIFNFUlZJQ0lPUyBFTVBSRVNBUklBTEVTIFNDMSUwIwYDVQQtExxBQUEwMTAxMDFBQUEgLyBIRUdUNzYxMDAzNFMyMR4wHAYDVQQFExUgLyBIRUdUNzYxMDAzTURGUk5OMDkxETAPBgNVBAsTCFVuaWRhZCAxMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2TTQSPONBOVxpXv9wLYo8jezBrb34i/tLx8jGdtyy27BcesOav2c1NS/Gdv10u9SkWtwdy34uRAVe7H0a3VMRLHAkvp2qMCHaZc4T8k47Jtb9wrOEh/XFS8LgT4y5OQYo6civfXXdlvxWU/gdM/e6I2lg6FGorP8H4GPAJ/qCNwIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEATxMecTpMbdhSHo6KVUg4QVF4Op2IBhiMaOrtrXBdJgzGotUFcJgdBCMjtTZXSlq1S4DG1jr8p4NzQlzxsdTxaB8nSKJ4KEMgIT7E62xRUj15jI49qFz7f2uMttZLNThipunsN/NF1XtvESMTDwQFvas/Ugig6qwEfSZc0MDxMpKLEkEePmQwtZD+zXFSMVa6hmOu4M+FzGiRXbj4YJXn9Myjd8xbL/c+9UIcrYoZskxDvMxc6/6M3rNNDY3OFhBK+V/sPMzWWGt8S1yjmtPfXgFs1t65AZ2hcTwTAuHrKwDatJ1ZPfa482ZBROAAX1waz7WwXp0gso7sDCm2/yUVww==",
+    "condicionesDePago": "CRÃ\u2030DITO",
+    "cfdi:Complemento": {"tfd:TimbreFiscalDigital": {
+        "selloSAT": "fmMpy1Zyr4ar6KW2hrmK/UpmAzgODyEv8pSss1xNjOdqhjOOTKC95EEZ0TNKm58XMZZoiXru9qzZG1qTzkvlNYgRnhIozxFgbXEsJW8LTSX+f2cfkdJRj53849s7FQEq2uJSKPzjQT6JaVxGfOs9YP78E765q3O9Xmmi+reHeVU=",
+        "xsi:schemaLocation": "http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd",
+        "selloCFD": "oz9w0h0wf2SODuL9Nlh5a7c/l6d3gAIuestShjcu7XEHse5wVtL6rNKT/F144RGhh2BNKesDiCQuEwNfMeh/BlB8agD0q9QsMmTErG/U4ysLpnmwLl+Cjl17QANWpSd8FYX0jt5Y+gn3vnK+uH9E2Al1wn9LmA7+XCH0fzayIH4=",
+        "FechaTimbrado": "2016-05-16T17:41:11",
+        "noCertificadoSAT": "20001000000100005761",
+        "UUID": "8603BD6A-50A0-4D3E-B9F8-48B3FE9B8443",
+        "version": 1,
+        "xmlns:tfd": "http://www.sat.gob.mx/TimbreFiscalDigital"
+    }},
+    "fecha": "2016-05-16T17:40:52",
+    "total": 800,
+    "LugarExpedicion": "MORELIA, MICHOACÃ?N",
+    "cfdi:Impuestos": {
+        "cfdi:Traslados": {"cfdi:Traslado": {
+            "impuesto": "IVA",
+            "importe": 0,
+            "tasa": 0
+        }},
+        "totalImpuestosTrasladados": 0
+    },
+    "folio": 3170,
+    "serie": "A",
+    "sello": "oz9w0h0wf2SODuL9Nlh5a7c/l6d3gAIuestShjcu7XEHse5wVtL6rNKT/F144RGhh2BNKesDiCQuEwNfMeh/BlB8agD0q9QsMmTErG/U4ysLpnmwLl+Cjl17QANWpSd8FYX0jt5Y+gn3vnK+uH9E2Al1wn9LmA7+XCH0fzayIH4=",
+    "formaDePago": "PAGO EN UNA SOLA EXHIBICIÃ\u201cN",
+    "cfdi:Receptor": {
+        "cfdi:Domicilio": {
+            "noExterior": 700,
+            "estado": "MICHOACÃ?N",
+            "codigoPostal": 58200,
+            "municipio": "MORELIA",
+            "calle": "ORIENTE CUATRO",
+            "localidad": "MORELIA",
+            "colonia": "CD. INDUSTRIAL 3A ETAPA",
+            "pais": "MÃ\u2030XICO"
+        },
+        "nombre": "LA UNIVERSAL IMPRESORA, S.A. DE C.V.",
+        "rfc": "UIM830519SJA"
+    },
+    "xmlns:cfdi": "http://www.sat.gob.mx/cfd/3"
+}}
